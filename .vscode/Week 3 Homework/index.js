@@ -11,7 +11,7 @@ let pizzaToppings = [
 function greetCustomer() {
   let welcome = "Welcome to Pizza Please! Our toppings are ";
   for (let topping of pizzaToppings) {
-    welcome += topping;
+    welcome += ${topping}, ;
   }
   console.log(welcome);
 }
@@ -33,6 +33,13 @@ function getPizzaOrder() {
   return "One " + sizeOrder + " " + crustOrder + " pizza with " + toppingOrder + " coming up!";
 }
 getPizzaOrder();
+
+//Part 2, Correct Solution:
+function getPizzaOrder(size, crust, ...toppings) {
+  let order = `One ${size} ${crust} crust pizza with `;
+  for (let topping of toppings) {
+    order += ${topping}, ;
+    
 
 //Part Four: Prepare Pizza function
 function preparePizza() {
