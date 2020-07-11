@@ -1,0 +1,46 @@
+* {
+    background-color: slateblue;
+    color: lavender;
+    font-family: "Trebuchet-MS", Helvetica, sans-serif;
+    margin: 15px;
+}
+
+header, footer {
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+    padding: 20px 20px;
+    border: 1px solid lavenderblush;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Ink Free";
+    font-style: bold;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    font-size: 88px;
+    color: lemonchiffon;
+    padding: 55px;
+    border: 5px black;
+}
+
+p {
+    text-align: justify;
+    padding: 10px 5px;
+    font-family: "Ink Free", Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+#lauren {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 22%;
+    height: auto;
+}
+
+h3 {
+    font-size: 55px;
+    font-family: "Ink Free", Helvetica, sans-serif;
+}
