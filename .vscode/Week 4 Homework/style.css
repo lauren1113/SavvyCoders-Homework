@@ -32,32 +32,36 @@ p {
     font-size: 24px;
 }
 
-#lauren {
-    display: block;
+h3 {
+    font-size: 55px;
+    font-family: "Ink Free", Helvetica, sans-serif;
+    padding: 7px 2px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+h4 {
+    font-size: 22px;
+
+}
+
+.image {display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#lauren {
     max-width: 22%;
     height: auto;
 }
 
 #kids {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 40%;
     height: auto;
 }
 
 #kayak {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 35%;
     height: auto;
 }
 
-h3 {
-    font-size: 55px;
-    font-family: "Ink Free", Helvetica, sans-serif;
-    padding: 7px 2px;
-}
