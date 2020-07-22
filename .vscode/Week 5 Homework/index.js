@@ -2045,20 +2045,22 @@ const jargon = userData.map(user => `${user.website} - ${user.email}`);
 console.log(jargon);
 
 //  create a list of user 9's to-dos
-const user9tasks = toDoData.filter(user => user.userId === 9);
+const user9tasks = toDoData.filter(task => task.userId === 9);
 console.log(user9tasks);
 
 //  then find the number of user 9's incomplete tasks
+user9toDoData.filter(task => task.completed ==== false).length;
+
 const incompleteTasks = toDoData.filter(task => !task.completed);
 const user9incomplete = incompleteTasks.filter(task => task.userId === 9);
 console.log(user9incomplete);
 
 //  create a list of user 5's posts
-const user5posts = postData.filter(user => user.userId === 5);
+const user5posts = postData.filter(post => post.userId === 5);
 console.log(user5posts);
 
 //  then, create a list of title and body pairs
-const user5titleBodyPair = user5posts.map(user => `${user.title} - ${user.body}`);
+const user5titleBodyPair = user5posts.map(post => `${post.title} - ${post.body}`);
 console.log(user5titleBodyPair);
 
 //  BONUS CHALLENGE (Using toDoData)
