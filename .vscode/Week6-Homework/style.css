@@ -1,0 +1,102 @@
+@media only screen and (max-width: 375px) and (max-height: 667px) {
+    * {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        padding-left: 10px;
+        padding-right: 12px;
+        margin: 3px;
+    }
+    h1 {
+        font-size: 15px;
+      }
+    #introPic {
+        height: 100px;
+        width: auto;
+        padding-left: 800px;
+        align-self: center;
+    }
+    #fezzik {
+        width: auto;
+        height: 100px;
+        align-self: center;
+        float: none;
+      }
+    #group {
+        width: auto;
+        height: 100px;
+        align-self: center;
+        float: none;
+      }
+    #pro {
+        width: auto;
+        height: 100px;
+        align-self: center;
+        float: none;
+      }
+}
+
+html {
+    background-color: antiquewhite;
+    }
+  
+  div {
+    border: 2px solid burlywood;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin: 20px;
+  }
+  ul {
+    padding-left: 100px;
+  }
+  #achievements > li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #link1 {
+    padding: 5px;
+    padding-left: 75px;
+  }
+  #link2 {
+    padding: 5px;
+    padding-left: 300px;
+  }
+  #sysk {
+    font-size: 20pt;
+    padding-left: 300px;
+  }
+  #bio {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: right;
+    padding-right: 300px;
+  }
+  #bio > li {
+    padding: 2px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+  #introPic {
+    height: 200px;
+    width: auto;
+    padding-left: 300px;
+  }
+  #fezzik {
+    height: 200px;
+    width: auto;
+    float: right;
+  }
+  #group {
+    height: 200px;
+    width: auto;
+    float: right;
+  }
+  #pro {
+    height: 200px;
+    width: auto;
+    float: right;
+  }
+    
