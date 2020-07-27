@@ -1,0 +1,36 @@
+@media (max-width: 400px) {
+    div {
+      border: 2px solid burlywood;
+      padding-bottom: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin: 5px;
+    }
+    ul {
+      padding-left: 0px;
+    }
+    #bio {
+      padding: 30px;
+    }
+    #introPic {
+      height: 200px;
+      width: auto;
+      padding-left: 0px;
+    }
+    #sysk {
+      font-size: 20pt;
+      padding-left: 0px;
+    }
+    #fezzik {
+      height: 190px;
+      width: auto;
+    }
+    #link1 {
+      padding: 5px;
+      padding-left: 10px;
+    }
+    #link2 {
+      padding: 5px;
+      padding-left: 10px;
+    }
+  }
